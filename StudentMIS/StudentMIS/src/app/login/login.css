@@ -1,0 +1,82 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login wrapper box */
+.login-wrapper {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+.login-wrapper h1 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Form container */
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Labels */
+.login-form-container label {
+  text-align: left;
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+}
+
+/* Inputs */
+.login-form-container input {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-form-container input:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 4px rgba(37, 117, 252, 0.5);
+}
+
+/* Button */
+.login-form-container button {
+  padding: 12px;
+  font-size: 16px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form-container button:hover {
+  background: #1a5fd6;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .login-wrapper {
+    width: 90%;
+    padding: 25px 20px;
+  }
+}

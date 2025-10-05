@@ -1,0 +1,68 @@
+/* Wrapper styling */
+.wrapper {
+  width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.wrapper h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.form-container label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input & textarea styling */
+.form-container input,
+.form-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  resize: none;
+}
+
+/* Make readonly fields slightly gray */
+.form-container input[readonly],
+.form-container textarea[readonly] {
+  background-color: #e9ecef;
+  color: #555;
+  cursor: not-allowed;
+}
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #5c6bc0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #3f4ea1;
+}
